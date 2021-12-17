@@ -1,0 +1,124 @@
+:root {
+  --gold: #dac402;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(Marvel-Regular.ttf);
+}
+
+@font-face {
+  font-family: mySecondFont;
+  src: url(DcFandom-orr4.ttf)
+}
+
+@font-face {
+  font-family: heroFont;
+  src: url(JmhsavageRegular-aZX5.ttf)
+}
+
+.mteamTitle {
+  font-family: myFirstFont;
+  font-size: 90px;
+  color: white;
+}
+
+#dc {
+  background: linear-gradient(to right, rgb(51, 51, 51), rgb(0, 0, 0));
+  font-weight: 700;
+  font-family: heroFont;
+  color: white;
+}
+
+.dcteamTitle {
+  font-family: mySecondFont;
+  font-size: 90px;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  background: url(DCBackground.png)
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: .5rem;
+  width: 10rem;
+  text-align: center;
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+  background-color: gray;
+
+}
+
+button {
+  text-decoration: none;
+  color: white;
+  font-family: heroFont;
+  font-size: 20px;
+  text-shadow: -3px -3px 0 black, 3px -3px 0 black, -3px 3px 0 black, 3px 3px 0 black;
+  font-weight: bold;
+  padding: .5rem;
+  width: 10rem;
+  text-align: center;
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+  background-color: gray;
+
+}
+
+header {
+  background-image: linear-gradient(to right, rgb(136, 45, 45),rgb(78, 24, 24),rgb(51, 51, 51), rgb(0, 0, 0));
+}
+
+body {
+  background: linear-gradient(to right, rgb(136, 45, 45),rgb(78, 24, 24),rgb(51, 51, 51), rgb(0, 0, 0));
+}
+
+#Marvel {
+  background: linear-gradient(to right, rgb(136, 45, 45),rgb(78, 24, 24));
+  font-weight: 700;
+  font-family: heroFont;
+  color: white;
+}
+
+.dcName {
+  background: linear-gradient(to right, rgb(51, 51, 51), rgb(0, 0, 0));
+  font-weight: 700;
+  font-family: heroFont;
+  color: white;
+}
+
+#marvStats {
+  text-align: center;
+}
+
+#dcStats {
+  text-align: center;
+}
+
+#marvArray {
+  border-radius: 5px;
+}
+
+#dcArray {
+  border-radius: 5px;
+}
+
+.center {
+  text-align: center;
+  font-family: heroFont;
+  font-size: 20px;
+  color: white;
+  text-shadow: -3px -3px 0 black, 3px -3px 0 black, -3px 3px 0 black, 3px 3px 0 black;
+}
+
+.whoWon {
+  color: var(--gold);
+  text-shadow: -3px -3px 0 black, 3px -3px 0 black, -3px 3px 0 black, 3px 3px 0 black;
+}
+
+.fightCloud {
+  align-items:center;
+}
+

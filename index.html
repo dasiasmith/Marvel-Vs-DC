@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <title>Super Hero Battle Royale</title>
+</head>
+<body>
+    <header>
+        <div class="btn"> <!--Format class to look like a button-->
+            <a class="teamFightButt" href="assets/fightclub.html">TEAM FIGHT!</a>
+        </div>
+    </header>
+    <div class="grid-x grid-margin-x medium-margin-collapse">
+        <div class="columns small-6">
+            <div class="align-center-middle text-center">
+            <!--Everything within the left column will go here-->
+                <h1 class="mteamTitle">TEAM MARVEL</h1>
+                <div class="card">
+                    <h3 class="card-header text-uppercse"id="Marvel">CHOOSE YOUR HERO</h3>
+                    <div id="mTeamNames"></div>
+                    <select name="hero-name" id="marvelName">
+                        <option value="" disabled selected>Select Hero</option>
+                        <option value="149">Captain America</option>
+                        <option value="346">Iron Man</option>
+                        <option value="620">Spider-Man</option>
+                        <option value="226">Doctor Strange</option>
+                        <option value="30">Ant-Man</option>
+                        <option value="106">Black Panther</option>
+                        <option value="659">Thor</option>
+                        <option value="332">Hulk</option>
+                        <option value="687">Venom</option>
+                        <option value="213">Deadpool</option>
+                    </select>
+                </div>
+            </div>
+            <!--Separate card selection created to choose movie titles-->
+            <div class="card marvCard" id="marvCardId">
+                <div class="card-divider" id="marvCharTitle"></div>
+                <div class="card-section" id="marvStats"></div>
+            </div>
+            <div class="marvMovie" id="marvMovieDiv">
+                <select id="marvArray"></select>
+            </div>
+        </div>
+        <div class="columns small-6">
+            <div class="align-center-middle text-center">
+            <!--Everything within the right column will go here-->    
+            <h1 class="dcteamTitle">Team  DC</h1>
+            <div class="card">
+                <h3 class="card-header text-uppercse" id="dc">CHOOSE YOUR HERO</h3>
+                <div id="dcTeamNames"></div>
+                <select name="hero-name" id="dcName">
+                    <option value="" disabled selected>Select Hero</option>
+                    <option value="69">Batman</option>
+                    <option value="644">Superman</option>
+                    <option value="306">Green Lantern</option>
+                    <option value="720">Wonder Woman</option>
+                    <option value="194">Cyborg</option>
+                    <option value="370">Joker</option>
+                    <option value="309">Harley Quinn</option>
+                    <option value="367">John Constantine</option>
+                    <option value="165">CatWoman</option>
+                    <option value="38">Aquaman</option>
+                </select>
+            </div>
+            </div>
+            <div class="card dcCard" id="dcCardId">
+                <div class="card-divider" id="dcCharTitle"></div>    
+                <div class="card-section" id="dcStats"></div>
+            </div>
+            <div class="dcMovie" id = "dcMovieDiv">
+                <select id = "dcArray"></select>
+            </div>
+            </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src ="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

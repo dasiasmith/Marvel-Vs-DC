@@ -1,0 +1,3 @@
+clearAll = (e) => {
+    localStorage.clear();
+}
