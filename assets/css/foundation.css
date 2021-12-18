@@ -12,6 +12,12 @@
     margin: 0 auto; } }
 
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+@font-face {
+  font-family: heroFont;
+  src: url(BadaboomBB_Reg.ttf)
+}
+
+
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%; }
@@ -2880,7 +2886,7 @@ select {
   border: 1px solid #cacaca;
   border-radius: 0;
   background-color: linear-gradient(to right, rgb(51, 51, 51), rgb(0, 0, 0));
-  font-family: 'Bangers', cursive;
+  font-family: heroFont;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
